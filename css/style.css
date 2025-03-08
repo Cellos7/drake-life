@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(58, 211, 203);
+}
+
+/*se for id usar "#" */
+#topo{
+    background-color:blueviolet;
+}
+
+/* se for classe usar "." */
+
+.topo{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topo a{
+    padding: 10px;
+    text-decoration: none;
+    color:white;
+
+}
+
+.topo a:hover{
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+.topo ul{
+    display: flex;
+    list-style: none;
+
+}
+
+
