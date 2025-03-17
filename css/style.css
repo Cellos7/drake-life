@@ -1,37 +1,57 @@
 body{
-    background-color: rgb(58, 211, 203);
+    background-color: rgb(46, 44, 40);
 }
 
-/*se for id usar "#" */
-#topo{
-    background-color:blueviolet;
-}
-
-/* se for classe usar "." */
 
 .topo{
-    width: 80%;
+    background-color: #565656;
+}
+
+.topo{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-.topo a{
-    padding: 10px;
-    text-decoration: none;
-    color:white;
+    justify-content: center;
 
 }
 
-.topo a:hover{
-    background-color: goldenrod;
-    border-radius: 5px;
+h1{
+    color: hsl(36, 100%, 50%);
+    text-align: center;
+
 }
 
-.topo ul{
+.texto{
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
     display: flex;
-    list-style: none;
-
+    margin: 0 auto;
+    align-items: center;
+    max-width: 80%;
 }
 
+p{
+    font-size: 150%;
+}
 
+h2{
+    color: hsl(36, 100%, 50%);
+    text-align: center;
+    padding-top: 100px;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 75px;
+    padding-top: 25px;
+}
+
+.rodape{
+    background-color: #565656;
+    color:  hsl(36, 100%, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
